@@ -1,0 +1,130 @@
+/*
+font-family: 'Bubblegum Sans', cursive;
+font-family: 'Cinzel Decorative', cursive;
+font-family: 'Zeyada', cursive;
+font-family: 'Petit Formal Script', cursive;
+font-family: 'Yeseva One', cursive;
+font-family: 'Montez', cursive;
+font-family: 'Cedarville Cursive', cursive;
+font-family: 'IM Fell English SC', serif;
+font-family: 'Warnes', cursive;
+font-family: 'Nosifer', cursive;
+font-family: 'Metal Mania', cursive;
+           : 'black ops one';
+*/
+
+@import 'https://fonts.googleapis.com/css?family=Roboto|Poppins|Bubblegum+Sans|Cedarville+Cursive|Black+Ops+One|Cinzel+Decorative|IM+Fell+English+SC|Metal+Mania|Montez|Nosifer|Petit+Formal+Script|Warnes|Yeseva+One|Zeyada|Josefin+Sans';
+body{
+  /*margin-top: 70px;*/
+  font-size: 16px;
+  padding-bottom:0; 
+
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Poppins';
+}
+
+p{
+  font-family: serif;
+}
+.navbar-default{
+  background: #fff;
+  border: 0;
+  font-family: Poppins;
+}
+.navbar-brand {
+font-size: 20px;
+  font-weight: bold;
+  color: #000 !important
+
+}
+
+
+
+#showcase{
+    background-color:#fafbfc; 
+ 
+     padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom:15px;
+}
+
+#showcase h1{
+  font-size: 50px;
+  margin-bottom:  20px;
+}
+#showcase img{
+  width: 90%;
+  margin-left: 60px;
+  margin-top:40px;
+}
+#showcase .showcase-right{
+  margin-top:40px;
+
+}
+
+#showcase .showcase-right #imgaspnet {
+  background-image:url(../images/aspnet3.png);
+  
+  
+}
+#showcase .showcase-right h1 #course{
+    border-bottom-width:4em;
+padding-bottom:1px;
+border-bottom:solid;
+border-bottom-color:#15c26b;
+margin-left:20px
+}
+#showcase .showcase-right h3{
+    margin-left:20px;
+    margin-top:30px;
+}
+
+#testimonial{
+  background:  #f1f1f1;
+  padding: 50px 0 30px 0;
+  text-align: center;
+  margin-top: 40px;
+}
+
+#testimonial p{
+  font-size: 32px;
+  font-family: 'Josefin sans';
+  color:#000;
+}
+
+#testimonial p.customer{
+  font-size: 20px;
+  color:#666;
+}
+#info1 .info-left img{
+  width: 90%;
+  margin-left:60px;
+}
+#info1 .info-right{
+  margin-top:90px;
+}
+#info2 {
+  margin: 20px 0 60px 0;
+  margin-left:40px;
+  margin-right:40px;
+}
+
+#contact {
+  background:url(../images/image3.jpg);
+  padding: 40px;
+  color: #fff;
+  border-top: #333 7px solid;
+  border-bottom:#333 7px solid;
+}
+footer {
+  padding: 30px;
+  background-color:#f0f9fb; 
+}
+
+#imgfooter{
+    width:30%;
+    height:30%;
+    
+}
